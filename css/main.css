@@ -131,7 +131,7 @@ header{
 	font-weight: 400;
 	color: #8e8e8e;
 	margin: -2px 0 0 -2px;
-	padding: 10px 22px 12px 22px;
+	padding: 12px 22px 12px 22px;
 	text-decoration: none;
 	border: 1px solid transparent;
 }
@@ -335,7 +335,7 @@ justify-content: center;
   justify-content: center;
 	background: #ffeb33;
 	opacity: 0;
-	transition: 1s;
+	transition: 0.5s;
 	filter: blur(5px);
 	transform: scale(0.7);
 }
@@ -420,45 +420,6 @@ justify-content: center;
 .clients-list li{
 	margin: 0 20px 0px 20px;
 	display: flex;
-}
-
-.chippys{
-	background: url('../images/sprite.png') no-repeat -41px -134px;
-	width: 98px;
-	height: 28px;
-	margin-left: 0;
-}
-
-.sweety{
-	background: url('../images/sprite.png') no-repeat -41px -191px;
-	width: 98px;
-	height: 25px;
-}
-
-.bullseye{
-	background: url('../images/sprite.png') no-repeat -62px -237px;
-	width: 55px;
-	height: 45px;
-	margin-left: -25px;
-}
-
-.wall{
-	background: url('../images/sprite.png') no-repeat -57px -307px;
-	width: 55px;
-	height: 54px;
-}
-
-.golde{
-	background: url('../images/sprite.png') no-repeat -36px -386px;
-	width: 97px;
-	height: 20px;
-}
-
-.flowers{
-	background: url('../images/sprite.png') no-repeat -49px -427px;
-	width: 63px;
-	height: 60px;
-	margin-right: 0;
 }
 
 /* / CLIENTS */
